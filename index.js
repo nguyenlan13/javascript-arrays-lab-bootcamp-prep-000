@@ -17,4 +17,6 @@ console.log (kittens);
     return kittens.pop()
  }
  
- function 
+ function destructivelyRemoveFirstKitten(1){
+   return kittens.slice(1)
+ }
