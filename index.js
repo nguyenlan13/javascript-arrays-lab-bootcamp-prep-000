@@ -5,7 +5,7 @@ console.log (kittens);
 // Add your functions and code here
 
 
- function destructivelyAppendKitten(array, name){
-    return array.push(name);
+ function destructivelyAppendKitten(array, 'Ralph'){
+    return array.push('Ralph');
 
  }
