@@ -13,4 +13,6 @@ console.log (kittens);
     return kittens.unshift(name);
  }
  
- function 
+ function destructivelyRemoveLastKitten(){
+    return kittens
+ }
