@@ -24,3 +24,6 @@ console.log (kittens);
  function appendKitten(name){
    return [...kittens, name];
  }
+ function PrependKitten(name){
+   return[name,...kittens];
+ }
