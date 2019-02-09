@@ -28,4 +28,6 @@ console.log (kittens);
    return [name, ...kittens];
  }
  
- function
+ function removeLastKitten(){
+   return kittens.slice (kittens.length-2)
+ }
