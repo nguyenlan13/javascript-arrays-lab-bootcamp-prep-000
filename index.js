@@ -20,3 +20,5 @@ console.log (kittens);
  function destructivelyRemoveFirstKitten(){
    return kittens.shift()
  }
+ 
+ function
