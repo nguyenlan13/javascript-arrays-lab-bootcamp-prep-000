@@ -21,4 +21,6 @@ console.log (kittens);
    return kittens.shift()
  }
  
- function
+ function appendKitten(name){
+   return [name, ...kittens];
+ }
