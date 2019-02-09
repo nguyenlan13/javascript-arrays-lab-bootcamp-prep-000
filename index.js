@@ -25,5 +25,5 @@ console.log (kittens);
    return [...kittens, name];
  }
  function PrependKitten(name){
-   return[name,...kittens];
+   return [name, ...kittens];
  }
